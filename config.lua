@@ -236,5 +236,27 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "police"
     },
+    ["lsymc"] = {
+        label = "LSYMC Boathouse",               
+        takeVehicle = vector3(-794.66, -1510.83, 1.59),
+        spawnPoint = vector4(-793.58, -1501.4, 0.12, 111.5),
+        putVehicle = vector3(-793.58, -1501.4, 0.12),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
+    ["seadepot"] = {
+        label = "LSYMC Depot",               
+        takeVehicle = vector3(-772.98, -1430.76, 1.59),
+        spawnPoint = vector4(-729.77, -1355.49, 1.19, 142.5),
+        putVehicle = vector3(-729.77, -1355.49, 1.19),
+        showBlip = true,
+        blipName = "LSYMC Depot",
+        blipNumber = 356,
+        type = 'depot',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
 }
 HouseGarages = {}
