@@ -265,9 +265,9 @@ Garages = {
         putVehicle = vector3(-975.93, -3008.59, 13.95),
         showBlip = true,
         blipName = "LSIA Hangar",
-        blipNumber = 356,
+        blipNumber = 359,
         type = 'job',
-        job = 'pilot'                --public, job, gang, depot
+        job = 'pilot',               --public, job, gang, depot
         vehicle = 'air'                 --car, air, sea
     },
 
